@@ -2,7 +2,7 @@ package ru.netology.domain;
 
 public class Post {
     private long id;
-    private long owerId;
+    private long ownerId;
     private User user;
     private long createdBy;
     private long date;
@@ -36,11 +36,11 @@ public class Post {
     }
 
     public long getOwerId() {
-        return owerId;
+        return ownerId;
     }
 
     public void setOwerId(long owerId) {
-        this.owerId = owerId;
+        this.ownerId = owerId;
     }
 
     public User getUser() {
